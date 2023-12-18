@@ -1,14 +1,20 @@
 import React from "react";
+import Logo from "../assets/tanish.jpg"
 
 export default function Intro (){
     return(
-        <main>
+        <>
+            <div>
+                <img src={ Logo } className="Intro--Image" width={400} alt="Tanish" />
+            </div>
+            <div className="Top">
+                
+                <h1 className="Intro--Name">Tanish Hupare</h1>
+                <h2 className="Intro--Title">SWE engineer</h2>
+                <h3 className="Intro--Web">tanish.website</h3>
 
-            <h1 className="Intro--Name">Tanish Hupare</h1>
-            <h2 className="Intro--title">SWE engineer</h2>
-            <h3 className="Intro-Web">tanish.website</h3>
-
-        </main>
+            </div>
+        </>
     ) 
         
 }

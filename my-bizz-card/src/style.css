@@ -4,7 +4,112 @@
 
 body {
     margin: 0;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: #282D35;
+
+}
+
+.card-container {
+    width: 317px;
+    height: 780px;
+    margin: 20px auto;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Top{
+    
+    padding: 20px 20px;
+    align-items: center;
+}
+
+.Intro--Image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 317px;
+    
+}
+
+.Intro--Name{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.Intro--Title{
+    text-align: center;
+    font-weight: 100;
+    font-size: 13px;
+    color: #F47D27;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.Intro--Web{
+    text-align: center;
+    font-weight: 100;
+    font-size: 10.24px;
+    color: #4A4E74;
+    margin-top: 10px;
+}
+
+.About{
+    padding: 20px 30px;
+}
+
+.About--Title{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.About--Text{
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.Interest{
+    padding: 20px 30px;
+}
+
+.Interest--Title{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.Interest--Text{
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.Footer{
+
+    background: #D5D4D8;
+    padding: 20px 0px;
+  
+    
+}
+
+
+.Footer--list{
+
+    text-align: center;
+    list-style: none;
+    
+}
+
+.Footer--list > li{
+
+    margin-top: 30px;
+    display: inline-block;
+    margin-inline-start: 10px;
+    
+    
 }
 

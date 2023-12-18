@@ -1,16 +1,22 @@
 import React from "react";
-import NavBar from "./components/NavBar";
+import About from "./components/About";
 import Intro from "./components/intro";
+import Interest from "./components/Interest";
+import Footer from "./components/Footer";
+
 
 export default function App () {
 
     
     return(
         
-        <div>
+        <div className="card-container">
 
-        <NavBar />
+       
         <Intro />
+        <About />
+        <Interest />
+        <Footer />
         
         </div>
 
