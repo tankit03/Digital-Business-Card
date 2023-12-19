@@ -15,9 +15,6 @@ Throughout this project, the following concepts were explored and applied:
 - **React Props**: Passing information to components using props.
 - **React Styling**: Styling components using both inline styles and CSS classes.
 - **Modular Design**: Organizing code into modular, reusable components.
-- **React Hooks**: (Assuming hooks are used) Understanding and applying basic React hooks for state management and side effects.
-- **Routing**: (If applicable) Implementing navigation between different parts of the application.
-- **Deployment**: (Optional, if the project is deployed) Steps taken to deploy the application to a web server or a platform like GitHub Pages.
 
 ## Setup and Run
 To get this project running on your local machine, follow these steps:
