@@ -31,6 +31,7 @@ body {
     margin-right: auto;
     width: 317px;
     
+    
 }
 
 .Intro--Name{
@@ -56,8 +57,16 @@ body {
     margin-top: 10px;
 }
 
+.Contact--Button{
+    
+    padding: 0px 39px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
 .About{
-    padding: 20px 30px;
+    padding: 10px 30px;
+    margin-bottom: 0px;
 }
 
 .About--Title{
@@ -70,16 +79,21 @@ body {
     font-size: 12px;
     font-weight: 100;
     margin-top: 10px;
+    margin-bottom: 0px;
+    
 }
 
 .Interest{
     padding: 20px 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .Interest--Title{
     font-size: 16px;
     font-weight: 700;
-    margin-bottom: 0px;
+    margin-top: 0px;
+
 }
 
 .Interest--Text{
@@ -90,26 +104,24 @@ body {
 
 .Footer{
 
-    background: #D5D4D8;
-    padding: 20px 0px;
-  
-    
+
+background: #D5D4D8;
+padding-bottom: 50px;
+padding-top: 20px;
+padding-left: 110px;
+
+
 }
 
-
-.Footer--list{
-
-    text-align: center;
-    list-style: none;
-    
+.Insta--Icon{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.Git--Icon{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
 }
 
-.Footer--list > li{
-
-    margin-top: 30px;
-    display: inline-block;
-    margin-inline-start: 10px;
-    
-    
-}
 

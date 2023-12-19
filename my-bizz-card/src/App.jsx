@@ -3,7 +3,7 @@ import About from "./components/About";
 import Intro from "./components/intro";
 import Interest from "./components/Interest";
 import Footer from "./components/Footer";
-
+import Button from "./components/Button";
 
 export default function App () {
 
@@ -14,9 +14,11 @@ export default function App () {
 
        
         <Intro />
+        <Button />
         <About />
         <Interest />
         <Footer />
+
         
         </div>
 

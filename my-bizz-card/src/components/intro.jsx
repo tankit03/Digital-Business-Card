@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/tanish.jpg"
+import { Button } from "@react-email/components";
 
 export default function Intro (){
     return(
@@ -15,6 +16,7 @@ export default function Intro (){
 
             </div>
         </>
+            
     ) 
         
 }
