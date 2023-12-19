@@ -8,7 +8,7 @@ export default function Footer (){
 
 
             <div className="Icon">
-                <a href="https://www.instagram.com/tanishisolgy/" className="Insta--Button">
+                <a href="https://www.instagram.com/tanish.cam/" className="Insta--Button">
                 <img src={InstaIcon} alt="Email" className="Insta--Icon" />
                 </a>
 
